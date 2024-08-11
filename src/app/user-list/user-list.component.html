@@ -1,0 +1,21 @@
+<div>
+  <input [(ngModel)]="searchTerm" placeholder="Search by name" />
+  
+  <select [(ngModel)]="filterType">
+    <option value="">All Workout Types</option>
+    <option *ngFor="let workout of workouts" [value]="workout.type">
+      {{ workout.type }}
+    </option>
+  </select>
+  
+  <ul>
+    <li *ngFor="let user of filteredUsers">
+      <strong>{{ user.name }}</strong>
+      <ul>
+        <li *ngFor="let workout of user.workouts">
+          {{ workout.type }}: {{ workout.minutes }} minutes
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
