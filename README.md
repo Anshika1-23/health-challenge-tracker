@@ -4,13 +4,11 @@ This is a simple Angular application designed to track and manage users' workout
 
 ## Table of Contents
 - [Features](#features)
-- [Demo](#demo)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Testing](#testing)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
-- [License](#license)
 
 ## Features
 - **Add Workouts:** Add workout details such as name, workout type, and duration.
@@ -19,9 +17,6 @@ This is a simple Angular application designed to track and manage users' workout
 - **Pagination:** View workouts with pagination if there are more than 5 entries.
 - **Charts:** View a chart of workout progress for each user.
 - **Responsive Design:** Adapt to different screen sizes.
-
-## Demo
-You can view a live demo of the application [here](#).
 
 ## Getting Started
 ### Prerequisites
